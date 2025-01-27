@@ -24,7 +24,7 @@ const HLSPlayer = ({ src }) => {
     } else {
       console.error("HLS is not supported in this browser.");
     }
-  }, []);
+  }, [src]);
 
   return (
     <video

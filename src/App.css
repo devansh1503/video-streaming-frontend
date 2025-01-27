@@ -4,12 +4,45 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Verdana, sans-serif;
+  background-image: linear-gradient(to right, rgb(250, 0, 137), rgb(250, 0, 229));
 }
 .linkText{
   text-decoration: none;
   font-size: 20px;
   margin: 10px;
   margin-left: 20px;
-  color:black
+  color:rgb(65, 65, 65);
+  cursor: pointer;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 0px;
+  border-radius: 20px;
+  background-color: white;
+}
+.form *{
+  margin-bottom: 30px;
+}
+.form input{
+  border: none;
+  font-size: 20px;
+  border-bottom: 1px solid grey;
+  padding: 3px;
+  color: grey;
+  width: 400px;
+}
+.form button{
+  width: 200px;
+  font-size: 20px;
+  padding: 6px;
+  border: none;
+  background-color: rgb(250, 0, 137);
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
 }
